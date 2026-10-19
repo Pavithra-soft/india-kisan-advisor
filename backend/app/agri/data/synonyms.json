@@ -1,0 +1,20 @@
+{
+  "crops": {
+    "బియ్యం": "rice",
+    "vari": "rice",
+    "paddy": "rice",
+    "धान": "rice",
+    "arisi": "rice"
+  },
+  "pests": {
+    "brown planthopper": "bph",
+    "bph": "bph",
+    "కూడిపురుగు": "bph"
+  },
+  "fertilizers": {
+    "urea": "urea",
+    "యూరియా": "urea",
+    "dap": "dap",
+    "mop": "mop"
+  }
+}

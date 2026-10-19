@@ -1,0 +1,47 @@
+[
+  {
+    "record_id": "price-rice-kurnool-2025-10-15",
+    "fact_type": "price",
+    "title": "Paddy FAQ grade wholesale Kurnool",
+    "body": "Wholesale paddy FAQ grade at Kurnool market was 2150 INR per quintal on 2025-10-15.",
+    "crop_id": "rice",
+    "region_id": "ap",
+    "season": null,
+    "valid_from": "2025-10-15",
+    "valid_to": null,
+    "source_name": "Agmarknet (seed)",
+    "source_url": "https://agmarknet.gov.in/",
+    "numbers": {"price_inr_per_quintal": "2150"},
+    "metadata": {"market": "Kurnool", "grade": "FAQ"}
+  },
+  {
+    "record_id": "scheme-pm-kisan-ap",
+    "fact_type": "scheme",
+    "title": "PM-KISAN installment",
+    "body": "Eligible landholding farmers receive 6000 INR per year in three equal installments under PM-KISAN.",
+    "crop_id": null,
+    "region_id": "in",
+    "season": null,
+    "valid_from": "2024-01-01",
+    "valid_to": null,
+    "source_name": "PM-KISAN portal (seed)",
+    "source_url": "https://pmkisan.gov.in/",
+    "numbers": {"benefit_inr_per_year": "6000"},
+    "metadata": {"states": ["all"], "land_max_ha": null}
+  },
+  {
+    "record_id": "expl-rice-n-split-ap",
+    "fact_type": "explanatory",
+    "title": "Why split nitrogen in rice",
+    "body": "Split nitrogen applications in transplanted rice reduce leaching and improve panicle development in Andhra Pradesh kharif season.",
+    "crop_id": "rice",
+    "region_id": "ap",
+    "season": "kharif",
+    "valid_from": "2023-01-01",
+    "valid_to": null,
+    "source_name": "ANGRAU extension note (seed)",
+    "source_url": "https://angrau.ac.in/",
+    "numbers": {},
+    "metadata": {}
+  }
+]

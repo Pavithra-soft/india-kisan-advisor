@@ -1,0 +1,45 @@
+{
+  "version": "2025-10-agri-v1-draft",
+  "source": "ICAR/state STCR placeholder — agronomist review required before production",
+  "source_url": "https://icar.org.in/",
+  "crops": {
+    "rice": {
+      "target_yield_q_per_ha_default": 50,
+      "uptake_kg_per_q": {"n": 1.8, "p2o5": 0.9, "k2o": 1.5},
+      "soil_test_classes": {
+        "n": {"low": {"max": 280}, "medium": {"max": 560}, "high": {"min": 561}},
+        "p2o5": {"low": {"max": 10}, "medium": {"max": 25}, "high": {"min": 26}},
+        "k2o": {"low": {"max": 120}, "medium": {"max": 280}, "high": {"min": 281}}
+      },
+      "adjustment_factor": {"low": 1.0, "medium": 0.75, "high": 0.5},
+      "regional_average_without_soil_test": {
+        "n_kg_ha": {"min": 100, "max": 120},
+        "p2o5_kg_ha": {"min": 50, "max": 60},
+        "k2o_kg_ha": {"min": 40, "max": 50}
+      },
+      "max_safe_kg_ha": {"n": 200, "p2o5": 100, "k2o": 100},
+      "splits": [
+        {"stage": "basal", "timing": "At transplanting", "n_frac": 0.33, "p_frac": 1.0, "k_frac": 0.33},
+        {"stage": "tillering", "timing": "20-25 DAT", "n_frac": 0.33, "p_frac": 0.0, "k_frac": 0.33},
+        {"stage": "panicle_initiation", "timing": "40-45 DAT", "n_frac": 0.34, "p_frac": 0.0, "k_frac": 0.34}
+      ],
+      "placement": "Broadcast and incorporate basal; top-dress N and K in standing water"
+    }
+  },
+  "worked_examples": [
+    {
+      "id": "rice_ap_kharif_50q_low_npk",
+      "input": {
+        "crop_id": "rice",
+        "region_id": "ap",
+        "season": "kharif",
+        "target_yield_q_per_ha": 50,
+        "soil_type": "clay_loam",
+        "irrigation_type": "flood",
+        "previous_crop_id": null,
+        "soil_test": {"n_kg_ha": 200, "p2o5_kg_ha": 8, "k2o_kg_ha": 100, "ph": 6.2}
+      },
+      "expected_nutrient_kg_ha": {"n": 90, "p2o5": 45, "k2o": 75}
+    }
+  ]
+}
