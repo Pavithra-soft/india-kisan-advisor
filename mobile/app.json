@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Kisan Advisor",
+    "slug": "india-kisan-advisor",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1b5e20"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.kisan.advisor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1b5e20"
+      },
+      "package": "in.kisan.advisor"
+    },
+    "extra": {
+      "apiUrl": "http://127.0.0.1:8090"
+    }
+  }
+}

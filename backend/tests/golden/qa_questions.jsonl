@@ -1,0 +1,3 @@
+{"question": "What is wholesale paddy price in Kurnool?", "crop_id": "rice", "region_id": "ap", "must_contain_record_id": "price-rice-kurnool-2025-10-15", "must_include_numbers": ["2150"]}
+{"question": "PM-KISAN benefit amount", "region_id": "ap", "must_contain_record_id": "scheme-pm-kisan-ap", "must_include_numbers": ["6000"]}
+{"question": "rice price on Mars colony", "crop_id": "rice", "region_id": "xx", "expect_not_sure": true}

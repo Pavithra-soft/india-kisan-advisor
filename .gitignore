@@ -1,0 +1,12 @@
+.env
+**/.env
+__pycache__/
+*.py[cod]
+.venv/
+data/
+backend/data/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+.DS_Store
+*.db

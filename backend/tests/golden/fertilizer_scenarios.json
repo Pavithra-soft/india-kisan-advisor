@@ -1,0 +1,17 @@
+{
+  "scenarios": [
+    {
+      "input": {
+        "crop_id": "rice",
+        "region_id": "ap",
+        "season": "kharif",
+        "target_yield_q_per_ha": 50,
+        "soil_type": "clay_loam",
+        "irrigation_type": "flood",
+        "previous_crop_id": null,
+        "soil_test": {"n_kg_ha": 200, "p2o5_kg_ha": 8, "k2o_kg_ha": 100, "ph": 6.2}
+      },
+      "expected_nutrient_kg_ha": {"n": 90, "p2o5": 45, "k2o": 75}
+    }
+  ]
+}
